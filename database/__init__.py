@@ -1,1 +1,1 @@
-from database.dbInterface import DatabaseHandler
+from database.interface import DatabaseInterface

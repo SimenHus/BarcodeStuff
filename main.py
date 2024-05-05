@@ -3,19 +3,10 @@ import cv2
 from common import *
 from barcodes import BarcodeDetector
 
-
-
 detector = BarcodeDetector()
 img = cv2.imread(IMGS[2])
 
-
 detections = detector.detect(img)
-
-if len(detections) == 0:
-    print('No barcodes detected')
-    exit()
-
-print('Barcode detected')
 
 
 for barcode in detections:

@@ -1,1 +1,0 @@
-from scraping.meny import MenyScraper
