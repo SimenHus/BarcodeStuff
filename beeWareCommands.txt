@@ -1,0 +1,24 @@
+
+
+Generate project (from root folder):
+briefcase new: Generate new project, give necessary input
+
+Development (from project folder):
+briefcase dev: Runs the python code for development testing
+briefcase create: Generate scaffolding code
+briefcase create android: Generate scaffolding code for android app
+briefcase buld: Build application
+briefcase build android: Build app for android
+briefcase update: Update build files (require build and package after to update app and installer)
+
+For deployment (from project folder):
+briefcase run: Run app created by build. Not python code, an app
+briefcase run android: Run using android emulator or USB connected phone. For a physical phone, developer options and USB debugging must be enabled on the phone
+briefcase run web: Run in web browser (may be buggy, should only be used as proof of concept)
+briefcase package: Package app and create installer (.msi)
+
+Tags:
+-r: Update requirements before running/building
+-u: Update code before running/building
+--test: Run tests. Can be used with run and android/iOS environment
+--update-resources: Include updating of resources (i.e. icons)

@@ -13,6 +13,8 @@ formal_name = "Barcode Business"
 description = "Barcode reading and stuff"
 long_description = """More details about the app should go here.
 """
+icon = "icons/helloworld"
+splash_background_color = "#D3E6F5"
 sources = [
     "src/barcodebusiness",
 ]
@@ -21,6 +23,7 @@ test_sources = [
 ]
 
 requires = [
+    "httpx==0.27.0",
 ]
 test_requires = [
     "pytest",

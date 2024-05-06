@@ -5,7 +5,16 @@ Barcode reading and stuff
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN, ROW
+import httpx
 
+def greeting(name):
+    if name:
+        if name == "Brutus":
+            return "BeeWare the IDEs of Python!"
+        else:
+            return f"Hello, {name}"
+    else:
+        return "Hello, stranger"
 
 class BarcodeBusiness(toga.App):
     def startup(self):
@@ -41,9 +50,15 @@ class BarcodeBusiness(toga.App):
         self.main_window.content = main_box
         self.main_window.show()
 
-    def say_hello(self, widget):
-        print(f"Hello, {self.name_input.value}")
+    async def say_hello(self, widget):
+        async with httpx.AsyncClient() as client:
+            response = await client.get("https://jsonplaceholder.typicode.com/posts/42")
 
+        payload = response.json()
+        self.main_window.info_dialog(
+            greeting(self.name_input.value),
+            payload['body']
+        )
 
 def main():
     return BarcodeBusiness()
