@@ -1,0 +1,1446 @@
+{
+    "data": {
+        "ean": "7038010000065",
+        "products": [
+            {
+                "id": 8533,
+                "name": "Helmelk 1l Tine",
+                "vendor": "Tine sa",
+                "brand": "Tine",
+                "description": "TINE® Melk kommer fra gårder i regionen der du bor. Melk inneholder flere viktige næringsstoffer som kroppen trenger hver dag – kilde til til kalsium, protein, fosfor og vitamin B2 (riboflavin) og B12.",
+                "ingredients": "Helmelk",
+                "url": "https://joker.no/nettbutikk/varer/meieriprodukter/melk/helmelk/helmelk-7038010000065",
+                "image": "https://bilder.ngdata.no/7038010000065/kmh/large.jpg",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "Joker",
+                    "code": "JOKER_NO",
+                    "url": "https://joker.no/nettbutikk/varer",
+                    "logo": "https://kassal.app/logos/Joker.svg"
+                },
+                "current_price": {
+                    "price": 26.9,
+                    "unit_price": 26.9,
+                    "date": "2024-05-07T07:00:36.000000Z"
+                },
+                "weight": 1000,
+                "weight_unit": "ml",
+                "price_history": [
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-07T07:00:36.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-06T07:00:33.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-05T22:21:53.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-04T07:06:32.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-04T07:03:44.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-04T07:00:53.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-03T07:06:44.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-03T07:03:42.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-03T07:00:50.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-02T07:03:15.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-02T07:00:50.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-01T07:06:45.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-01T07:03:55.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-05-01T07:00:48.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-30T07:05:34.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-30T07:03:23.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-30T07:00:48.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-29T07:06:23.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-29T07:03:55.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-29T07:00:50.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-28T07:05:37.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-28T07:03:26.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-28T07:00:52.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-27T07:05:43.000000Z"
+                    },
+                    {
+                        "price": 26.9,
+                        "date": "2024-04-27T07:03:30.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/8533-helmelk-1l-tine-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/8533.jpg"
+                },
+                "created_at": "2022-01-09T19:31:38.000000Z",
+                "updated_at": "2024-05-07T07:00:36.000000Z"
+            },
+            {
+                "id": 14719,
+                "name": "Tine Helmelk 3,5% fett 1l",
+                "vendor": "TINE SA",
+                "brand": "TINE",
+                "description": "Med en halv liter melk om dagen dekkes over 70 % av vårt kalsiumbehov.",
+                "ingredients": "helmelk",
+                "url": "https://matlevering.coop.no/meieriprodukter/melk/tine-helmelk-3.5-1l",
+                "image": "https://cdcimg.coop.no/rte/RTE2/7038010000065.png",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "Coop",
+                    "code": "COOP_NO",
+                    "url": "https://matlevering.coop.no",
+                    "logo": "https://kassal.app/logos/Coop.svg"
+                },
+                "current_price": {
+                    "price": 21.5,
+                    "unit_price": null,
+                    "date": "2023-01-30T10:00:56.000000Z"
+                },
+                "weight": null,
+                "weight_unit": null,
+                "price_history": [
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-30T10:00:56.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-30T09:31:11.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-28T10:00:53.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-27T10:01:02.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-25T10:00:57.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-24T10:00:50.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-23T10:01:00.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-22T10:03:27.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-22T08:00:49.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-21T08:00:45.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-20T08:00:44.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-17T08:00:48.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-16T08:00:53.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-15T10:58:30.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-14T08:00:45.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-13T08:00:49.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-12T14:08:17.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-12T08:00:51.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-11T08:00:56.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-10T11:48:43.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-08T18:40:31.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-05T14:28:07.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-03T07:50:13.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2023-01-02T07:04:21.000000Z"
+                    },
+                    {
+                        "price": 21.5,
+                        "date": "2022-12-29T19:19:37.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/14719-tine-helmelk-35-fett-1l-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/14719.jpg"
+                },
+                "created_at": "2022-01-09T19:54:56.000000Z",
+                "updated_at": "2024-05-05T23:10:09.000000Z"
+            },
+            {
+                "id": 17625,
+                "name": "Helmelk 1l Tine",
+                "vendor": "Tine sa",
+                "brand": "Tine",
+                "description": "TINE® Melk kommer fra gårder i regionen der du bor. Melk inneholder flere viktige næringsstoffer som kroppen trenger hver dag – kilde til til kalsium, protein, fosfor og vitamin B2 (riboflavin) og B12.",
+                "ingredients": "Helmelk",
+                "url": "https://spar.no/nettbutikk/varer/meieri-og-egg/melk/helmelk/helmelk-7038010000065",
+                "image": "https://bilder.ngdata.no/7038010000065/kmh/large.jpg",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "SPAR",
+                    "code": "SPAR_NO",
+                    "url": "https://spar.no/nettbutikk/varer",
+                    "logo": "https://kassal.app/logos/Spar.svg"
+                },
+                "current_price": {
+                    "price": 25.2,
+                    "unit_price": 25.2,
+                    "date": "2024-05-07T07:00:57.000000Z"
+                },
+                "weight": 1000,
+                "weight_unit": "ml",
+                "price_history": [
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-07T07:00:57.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-06T07:00:54.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-05T22:23:34.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-04T07:06:48.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-04T07:03:48.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-04T07:01:05.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-03T07:06:52.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-03T07:04:00.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-03T07:01:31.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-02T07:06:23.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-02T07:03:50.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-02T07:01:25.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-01T07:06:21.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-01T07:03:56.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-05-01T07:01:35.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-30T07:06:33.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-30T07:04:03.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-30T07:01:09.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-29T07:06:39.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-29T07:04:03.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-29T07:01:07.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-28T07:09:34.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-28T07:05:32.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-28T07:03:22.000000Z"
+                    },
+                    {
+                        "price": 25.2,
+                        "date": "2024-04-27T07:06:01.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/17625-helmelk-1l-tine-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/17625.jpg"
+                },
+                "created_at": "2022-01-09T19:55:27.000000Z",
+                "updated_at": "2024-05-07T07:00:57.000000Z"
+            },
+            {
+                "id": 26476,
+                "name": "Helmelk 1l Tine",
+                "vendor": "Tine sa",
+                "brand": "Tine",
+                "description": "TINE® Melk kommer fra gårder i regionen der du bor. Melk inneholder flere viktige næringsstoffer som kroppen trenger hver dag – kilde til til kalsium, protein, fosfor og vitamin B2 (riboflavin) og B12.",
+                "ingredients": "Helmelk",
+                "url": "https://meny.no/Varer/meieri-egg/melk/helmelk/helmelk-7038010000065",
+                "image": "https://bilder.ngdata.no/7038010000065/meny/large.jpg",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "Meny",
+                    "code": "MENY_NO",
+                    "url": "https://meny.no/Varer",
+                    "logo": "https://kassal.app/logos/Meny.svg"
+                },
+                "current_price": {
+                    "price": 24.9,
+                    "unit_price": 24.9,
+                    "date": "2024-05-07T07:00:09.000000Z"
+                },
+                "weight": 1000,
+                "weight_unit": "ml",
+                "price_history": [
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-07T07:00:09.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-06T07:00:09.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-05T22:17:10.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-04T07:06:41.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-04T07:03:56.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-04T07:00:42.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-03T07:05:38.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-03T07:03:24.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-03T07:00:40.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-02T07:06:33.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-02T07:03:50.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-02T07:00:39.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-01T07:06:25.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-01T07:03:46.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-05-01T07:00:40.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-30T07:05:35.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-30T07:03:22.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-30T07:00:37.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-29T07:05:33.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-29T07:03:19.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-29T07:00:36.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-28T07:05:14.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-28T07:02:54.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-28T07:00:38.000000Z"
+                    },
+                    {
+                        "price": 24.9,
+                        "date": "2024-04-27T07:05:11.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/26476-helmelk-1l-tine-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/26476.jpg"
+                },
+                "created_at": "2022-01-09T19:57:15.000000Z",
+                "updated_at": "2024-05-07T07:00:09.000000Z"
+            },
+            {
+                "id": 33529,
+                "name": "Tine Helmelk 1 l",
+                "vendor": "Tine SA",
+                "brand": "TINE",
+                "description": "",
+                "ingredients": "helmelk",
+                "url": "https://oda.com/no/products/437-tine-tine-helmelk/",
+                "image": "https://bilder.kolonial.no/local_products/c174c305-29f8-4962-b827-7a00281b2956.jpg?auto=format&fit=max&w=329&s=6aeaaaab2159b3e71d7c33f00099bafd",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "Oda",
+                    "code": "ODA_NO",
+                    "url": "https://oda.com/no/",
+                    "logo": "https://kassal.app/logos/Oda.svg"
+                },
+                "current_price": {
+                    "price": 22.4,
+                    "unit_price": 22.4,
+                    "date": "2024-04-26T20:10:47.000000Z"
+                },
+                "weight": 1,
+                "weight_unit": "l",
+                "price_history": [
+                    {
+                        "price": 22.4,
+                        "date": "2024-04-26T20:10:47.000000Z"
+                    },
+                    {
+                        "price": 22.4,
+                        "date": "2024-04-26T20:10:17.000000Z"
+                    },
+                    {
+                        "price": 22.3,
+                        "date": "2024-04-04T07:12:16.000000Z"
+                    },
+                    {
+                        "price": 22.3,
+                        "date": "2024-04-03T07:11:48.000000Z"
+                    },
+                    {
+                        "price": 22.3,
+                        "date": "2024-04-02T07:12:22.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-04-01T07:16:41.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-03-31T07:12:12.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-03-30T08:12:28.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-03-29T08:13:47.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-03-28T08:12:11.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-03-27T08:12:40.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-03-26T08:12:23.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-25T08:14:19.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-24T08:16:34.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-23T08:12:31.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-22T08:12:34.000000Z"
+                    },
+                    {
+                        "price": 21.9,
+                        "date": "2024-03-21T08:12:29.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-20T08:12:36.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-19T08:17:01.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-18T20:00:56.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-18T08:12:41.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-17T08:11:20.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-16T08:16:37.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-15T08:12:51.000000Z"
+                    },
+                    {
+                        "price": 22.2,
+                        "date": "2024-03-14T08:13:13.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/33529-tine-helmelk-1-l-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/33529.jpg"
+                },
+                "created_at": "2022-01-09T19:59:43.000000Z",
+                "updated_at": "2024-05-05T23:40:30.000000Z"
+            },
+            {
+                "id": 40347,
+                "name": "Helmelk Tine 1 l",
+                "vendor": null,
+                "brand": "TINE",
+                "description": null,
+                "ingredients": "helmelk",
+                "url": "https://engrosnett.no/meieri-egg-margarin/melk/helmelk-tine-1-l",
+                "image": "https://engrosnett.no/image/melk-og-yoghurt/705525-705525.jpg?lb=true&v=638181109211730000",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "Engrosnett",
+                    "code": "ENGROSSNETT_NO",
+                    "url": "https://engrosnett.no/",
+                    "logo": "https://kassal.app/logos/Engrosnett.svg"
+                },
+                "current_price": {
+                    "price": 25,
+                    "unit_price": null,
+                    "date": "2024-01-09T08:12:36.000000Z"
+                },
+                "weight": null,
+                "weight_unit": null,
+                "price_history": [
+                    {
+                        "price": 25,
+                        "date": "2024-01-09T08:12:36.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-08T08:12:24.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-07T08:14:47.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-06T08:12:42.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-05T08:10:44.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-04T08:15:41.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-03T08:15:38.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-02T08:15:44.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2024-01-01T08:15:03.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-31T08:10:38.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-30T08:12:54.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-29T08:13:35.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-28T08:11:31.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-27T08:15:20.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-26T08:15:51.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-25T08:12:00.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-24T08:15:42.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-23T08:11:35.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-22T08:15:46.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-21T08:10:44.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-20T08:11:32.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-19T08:10:34.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-18T08:13:46.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-17T08:15:40.000000Z"
+                    },
+                    {
+                        "price": 25,
+                        "date": "2023-12-16T08:10:53.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/40347-helmelk-tine-1-l-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/40347.jpg"
+                },
+                "created_at": "2022-01-13T18:13:53.000000Z",
+                "updated_at": "2024-05-05T23:51:38.000000Z"
+            },
+            {
+                "id": 52971,
+                "name": "TINE MELK HEL 1 Liter",
+                "vendor": null,
+                "brand": null,
+                "description": null,
+                "ingredients": null,
+                "url": "https://nettbutikk.bunnpris.no/itemdetail.aspx?itemno=7038010000065&itemgrpno=&grpnm=&deptno=",
+                "image": "https://nettbutikk.bunnpris.no/itemImages/7038010000065_0_f.png",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "Bunnpris",
+                    "code": "BUNNPRIS",
+                    "url": "https://bunnpris.no/",
+                    "logo": "https://kassal.app/logos/Bunnpris.svg"
+                },
+                "current_price": {
+                    "price": 25.5,
+                    "unit_price": null,
+                    "date": "2024-05-07T07:16:46.000000Z"
+                },
+                "weight": null,
+                "weight_unit": null,
+                "price_history": [
+                    {
+                        "price": 25.5,
+                        "date": "2024-05-07T07:16:46.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-05-06T07:16:13.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-05-04T07:15:44.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-05-03T07:14:52.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-05-02T07:14:30.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-30T07:17:30.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-29T07:17:55.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-28T07:14:46.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-27T07:16:02.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-26T20:10:48.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-26T20:10:18.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-26T07:14:44.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-25T07:16:08.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-24T07:15:46.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-23T07:15:04.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-22T07:16:06.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-21T07:14:27.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-20T07:15:29.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-19T07:15:04.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-18T07:17:21.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-17T07:15:41.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-16T07:14:46.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-15T07:15:54.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-14T07:13:57.000000Z"
+                    },
+                    {
+                        "price": 25.5,
+                        "date": "2024-04-13T07:14:12.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/52971-tine-melk-hel-1-liter-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/52971.jpg"
+                },
+                "created_at": "2022-10-31T22:14:17.000000Z",
+                "updated_at": "2024-05-07T07:16:46.000000Z"
+            },
+            {
+                "id": 59090,
+                "name": "Helmelk 1l Tine",
+                "vendor": "Tine sa",
+                "brand": "Tine",
+                "description": "TINE® Melk kommer fra gårder i regionen der du bor. Melk inneholder flere viktige næringsstoffer som kroppen trenger hver dag – kilde til til kalsium, protein, fosfor og vitamin B2 (riboflavin) og B12.",
+                "ingredients": "Helmelk",
+                "url": "https://kiwi.no/aktuelt/dagligvarer/#7038010000065",
+                "image": "https://bilder.ngdata.no/7038010000065/kiwi/large.jpg",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": {
+                    "name": "KIWI",
+                    "code": "KIWI",
+                    "url": "https://kiwi.no/",
+                    "logo": "https://kassal.app/logos/Kiwi.svg"
+                },
+                "current_price": {
+                    "price": 20.9,
+                    "unit_price": null,
+                    "date": "2023-04-14T09:00:59.000000Z"
+                },
+                "weight": null,
+                "weight_unit": null,
+                "price_history": [
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-14T09:00:59.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-14T09:00:49.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-13T09:00:59.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-13T09:00:55.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-13T06:59:40.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-13T02:20:36.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-12T09:01:33.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-12T09:01:09.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-12T08:11:01.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-11T09:01:06.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-11T09:00:58.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-11T07:44:03.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-10T09:01:12.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-10T09:01:03.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-09T22:29:14.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-09T09:01:27.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-09T09:01:10.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-08T09:01:05.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-08T09:00:54.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-08T08:26:15.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-07T09:01:27.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-07T09:01:12.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-06T09:01:29.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-06T09:01:11.000000Z"
+                    },
+                    {
+                        "price": 20.9,
+                        "date": "2023-04-05T11:12:59.000000Z"
+                    }
+                ],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/59090-helmelk-1l-tine-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/59090.jpg"
+                },
+                "created_at": "2022-12-11T20:52:58.000000Z",
+                "updated_at": "2024-05-05T23:58:23.000000Z"
+            },
+            {
+                "id": 102235,
+                "name": "Tine Helmelk 3,5% 1l​",
+                "vendor": "TINE SA",
+                "brand": "TINE",
+                "description": null,
+                "ingredients": "helmelk",
+                "url": "",
+                "image": "https://api.vetduat.no/api/images/large/7038010000065",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": null,
+                "current_price": null,
+                "weight": 1,
+                "weight_unit": "l",
+                "price_history": [],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/102235-tine-helmelk-35-1l-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/102235.jpg"
+                },
+                "created_at": "2023-06-11T03:00:39.000000Z",
+                "updated_at": "2024-05-06T00:46:02.000000Z"
+            },
+            {
+                "id": 190040,
+                "name": "Tinemelk Hel 3,5% 1l Tine",
+                "vendor": "TINE SA",
+                "brand": "TINE",
+                "description": null,
+                "ingredients": "helmelk",
+                "url": "",
+                "image": "https://api.vetduat.no/api/images/large/7038010000065",
+                "category": [
+                    {
+                        "id": 8,
+                        "depth": -2,
+                        "name": "Meieri & egg"
+                    },
+                    {
+                        "id": 177,
+                        "depth": -1,
+                        "name": "Melk"
+                    },
+                    {
+                        "id": 299,
+                        "depth": 0,
+                        "name": "Helmelk"
+                    }
+                ],
+                "store": null,
+                "current_price": null,
+                "weight": 1,
+                "weight_unit": "l",
+                "price_history": [],
+                "kassalapp": {
+                    "url": "https://kassal.app/vare/190040-tinemelk-hel-35-1l-tine-7038010000065",
+                    "opengraph": "https://kassal.app/opengraph/products/190040.jpg"
+                },
+                "created_at": "2023-08-11T19:20:35.000000Z",
+                "updated_at": "2024-05-06T02:09:49.000000Z"
+            }
+        ],
+        "allergens": [
+            {
+                "code": "melk",
+                "display_name": "Melk",
+                "contains": "YES"
+            },
+            {
+                "code": "blotdyr",
+                "display_name": "Bløtdyr",
+                "contains": "NO"
+            },
+            {
+                "code": "egg",
+                "display_name": "Egg",
+                "contains": "NO"
+            },
+            {
+                "code": "fisk",
+                "display_name": "Fisk",
+                "contains": "NO"
+            },
+            {
+                "code": "gluten",
+                "display_name": "Gluten",
+                "contains": "NO"
+            },
+            {
+                "code": "lupiner",
+                "display_name": "Lupiner",
+                "contains": "NO"
+            },
+            {
+                "code": "notter",
+                "display_name": "Nøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "peanotter",
+                "display_name": "Peanøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "selleri",
+                "display_name": "Selleri",
+                "contains": "NO"
+            },
+            {
+                "code": "sennep",
+                "display_name": "Sennep",
+                "contains": "NO"
+            },
+            {
+                "code": "sesam",
+                "display_name": "Sesam",
+                "contains": "NO"
+            },
+            {
+                "code": "skalldyr",
+                "display_name": "Skalldyr",
+                "contains": "NO"
+            },
+            {
+                "code": "soya",
+                "display_name": "Soya",
+                "contains": "NO"
+            },
+            {
+                "code": "sulfitt",
+                "display_name": "Sulfitt",
+                "contains": "NO"
+            },
+            {
+                "code": "cashewnott",
+                "display_name": "Cashewnøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "hasselnott",
+                "display_name": "Hasselnøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "macadamianott",
+                "display_name": "Macademiannøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "mandel",
+                "display_name": "Mandler",
+                "contains": "NO"
+            },
+            {
+                "code": "paranott",
+                "display_name": "Paranøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "pekannott",
+                "display_name": "Pekannøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "pistasjnott",
+                "display_name": "Pistasjnøtter",
+                "contains": "NO"
+            },
+            {
+                "code": "valnott",
+                "display_name": "Valnøtter",
+                "contains": "NO"
+            }
+        ],
+        "nutrition": [
+            {
+                "code": "energi_kcal",
+                "display_name": "Kalorier",
+                "amount": 63,
+                "unit": "kcal"
+            },
+            {
+                "code": "energi_kj",
+                "display_name": "Energi",
+                "amount": 264,
+                "unit": "kj"
+            },
+            {
+                "code": "fett_totalt",
+                "display_name": "Fett",
+                "amount": 3.5,
+                "unit": "g"
+            },
+            {
+                "code": "karbohydrater",
+                "display_name": "Karbohydrater",
+                "amount": 4.5,
+                "unit": "g"
+            },
+            {
+                "code": "mettet_fett",
+                "display_name": "Mettet fett",
+                "amount": 2.3,
+                "unit": "g"
+            },
+            {
+                "code": "protein",
+                "display_name": "Protein",
+                "amount": 3.4,
+                "unit": "g"
+            },
+            {
+                "code": "salt",
+                "display_name": "Salt",
+                "amount": 0.1,
+                "unit": "g"
+            },
+            {
+                "code": "sukkerarter",
+                "display_name": "Sukkerarter",
+                "amount": 4.5,
+                "unit": "g"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nyt_norge",
+                "display_name": "Nyt Norge",
+                "description": "Nyt Norge er en merkeordning som gjør det enklere for kunden å velge norske produkter. For å få produktet stemplet med Nyt Norge må råvarene være norske, bonden må følge norsk regelverk samt at maten må være produsert og pakket i Norge.",
+                "organization": "Stiftelsen Norsk Mat",
+                "alternative_names": null,
+                "type": null,
+                "year_established": 2009,
+                "about": "<div>Nyt Norge er en merkeordning som ble etablert av Stiftelsen Norsk Mat i 2009 for å fremme norske matvarer. Hovedmålet med Nyt Norge er å synliggjøre norske produkter og gjøre det enkelt for forbrukerne å velge norske matvarer i butikkene.<br><br></div><div>For å bli merket med \"Nyt Norge\" må matprodusenter oppfylle tre krav. Produktene må bestå av norske råvarer, bøndene må følge norske regler gjennom <a href=\"https://www.ksl.no/no/ksl-standarder/copy_om-ksl\">Kvalitetssystemet i Landbruket</a> (KSL), og produktet må være produsert og pakket i Norge. Noen produkter, som kjøtt, melk og egg, krever 100% norsk opprinnelse, mens sammensatte produkter tillates opptil 25% ikke-norske ingredienser.</div><div><br>Per januar 2020 var det over 4 300 produkter merket med Nyt Norge. Merkeordningen bidrar til å sikre norsk dyrehelse og miljø, da Norge bruker mindre plantevernmidler og er blant de landene i verden som bruker minst antibiotika til husdyr. Norske bønder følger strenge regler som kontrolleres gjennom KSL for å sikre trygg matproduksjon.</div><div><br>Ved å velge mat merket med Nyt Norge, støtter forbrukerne norske arbeidsplasser. Rundt 100 000 mennesker over hele landet er involvert i produksjonen av maten vi spiser. Nyt Norge-merket gjør det enkelt å velge norsk og nyte de gode smakene av norske bær om sommeren, grønnsaker om høsten, tradisjonelle retter som pinnekjøtt og ribbe til jul, og andre norske kvalitetsprodukter.</div><div><br>Nyt Norge fortsetter å jobbe for å fremme norsk matkultur, bærekraft og selvforsyning. Gjennom merkeordningen og informasjonskampanjer oppfordrer de forbrukerne til å ta bevisste valg og støtte norske matvarer. Ved å velge Nyt Norge kan vi alle bidra til å opprettholde og videreføre norske mattradisjoner og verdiskaping i norsk matproduksjon.</div>",
+                "note": null,
+                "icon": {
+                    "svg": "https://kassal.app/labels/svg/Nyt Norge.svg",
+                    "png": "https://kassal.app/labels/png/Nyt Norge.png"
+                }
+            }
+        ]
+    }
+}

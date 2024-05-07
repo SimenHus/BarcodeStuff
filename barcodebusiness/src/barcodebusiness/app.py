@@ -9,30 +9,33 @@ from toga.style.pack import COLUMN, ROW
 import PIL
 import numpy as np
 
-from barcodebusiness.barcode import detect_barcode
+from barcodebusiness.barcode import *
 
 class BarcodeBusiness(toga.App):
     def startup(self):
         main_box = toga.Box(style=Pack(direction=COLUMN))
 
-        name_label = toga.Label(
-            "Your name: ",
+        barcode_label = toga.Label(
+            'Barcode to check: ',
             style=Pack(padding=(0, 5))
         )
-        self.name_input = toga.TextInput(style=Pack(flex=1))
+        self.barcode_input = toga.TextInput(style=Pack(flex=1))
 
-        name_box = toga.Box(style=Pack(direction=ROW, padding=5))
-        name_box.add(name_label)
-        name_box.add(self.name_input)
-
+        barcode_box = toga.Box(style=Pack(direction=ROW, padding=5))
+        barcode_box.add(barcode_label)
+        barcode_box.add(self.barcode_input)
 
         button = toga.Button(
-            'Say hello!',
+            'Fetch',
+            on_press=self.check_barcode,
             style=Pack(padding=5)
         )
 
-        main_box.add(name_box)
+        self.table_box = toga.Box(style=Pack(direction=COLUMN, flex=1))
+
+        main_box.add(barcode_box)
         main_box.add(button)
+        main_box.add(self.table_box)
 
         self.main_window = toga.MainWindow(title=self.formal_name)
         self.main_window.content = main_box
@@ -54,6 +57,47 @@ class BarcodeBusiness(toga.App):
 
         image = np.array(image.as_format(PIL.Image.Image)) # Convert image to format readable by cv2
         barcodes = await detect_barcode(image) # Detect barcodes in image
+
+    async def check_barcode(self, widget) -> None:
+        barcode = self.barcode_input.value
+        is_sane, comment = await sanity_check(barcode)
+        if not is_sane:
+            self.main_window.info_dialog(
+                'Barcode error',
+                comment
+            )
+            return
+        
+        barcode_data = await fetch_barcode_data(barcode)
+        product = await parse_barcode_data(barcode_data)
+
+        table = await self.generate_nutrition_table(product)
+
+        self.table_box.add(table)
+
+
+
+
+    
+    async def generate_nutrition_table(self, product: Product) -> toga.Table:
+
+        headings = ['Nutrition', 'Value', 'Unit']
+        accessors = {
+            'Nutrition': 'category',
+            'Value': 'amount',
+            'Unit': 'unit'
+        }
+        data = product.nutrition_table()
+
+        table = toga.Table(
+            headings=headings,
+            accessors=accessors,
+            data=data
+        )
+
+        return table
+
+
 
 
 def main():
