@@ -2,28 +2,17 @@
 Barcode reading and stuff
 """
 
+import PIL.Image
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN, ROW
-import httpx
+import PIL
+import numpy as np
 
-def greeting(name):
-    if name:
-        if name == "Brutus":
-            return "BeeWare the IDEs of Python!"
-        else:
-            return f"Hello, {name}"
-    else:
-        return "Hello, stranger"
+from barcodebusiness.barcode import detect_barcode
 
 class BarcodeBusiness(toga.App):
     def startup(self):
-        """Construct and show the Toga application.
-
-        Usually, you would add your application to a main content box.
-        We then create a main window (with a name matching the app), and
-        show the main window.
-        """
         main_box = toga.Box(style=Pack(direction=COLUMN))
 
         name_label = toga.Label(
@@ -39,7 +28,6 @@ class BarcodeBusiness(toga.App):
 
         button = toga.Button(
             'Say hello!',
-            on_press=self.say_hello,
             style=Pack(padding=5)
         )
 
@@ -50,15 +38,23 @@ class BarcodeBusiness(toga.App):
         self.main_window.content = main_box
         self.main_window.show()
 
-    async def say_hello(self, widget):
-        async with httpx.AsyncClient() as client:
-            response = await client.get("https://jsonplaceholder.typicode.com/posts/42")
+    async def capture_video(self) -> None:
+        """Function to capture video and scan for barcodes"""
+        
+        image = None
+        try:
+            image = await self.camera.take_photo() # Returns None if canceled photo
+        except PermissionError as error: # Raises PermissionError if camera permission has not been granted
+            self.main_window.info_dialog( # Notify the user in regards to camera permission
+                'Permission denied',
+                'The app needs permission to use the camera'
+            )
+        
+        if image is None: return # If image is not none we successfully captured an image
 
-        payload = response.json()
-        self.main_window.info_dialog(
-            greeting(self.name_input.value),
-            payload['body']
-        )
+        image = np.array(image.as_format(PIL.Image.Image)) # Convert image to format readable by cv2
+        barcodes = await detect_barcode(image) # Detect barcodes in image
+
 
 def main():
     return BarcodeBusiness()
