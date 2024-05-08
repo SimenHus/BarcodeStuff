@@ -13,8 +13,12 @@ from barcodebusiness.barcode import *
 
 class BarcodeBusiness(toga.App):
     def startup(self):
-        main_box = toga.Box(style=Pack(direction=COLUMN))
+        # Main layout widgets
+        main_box = toga.OptionContainer() # Main box to contain all sub boxes
+        input_box = toga.Box(style=Pack(direction=COLUMN, flex=1))
+        products_box = toga.Box(style=Pack(direction=ROW, flex=1))
 
+        # Widgets for input_box
         barcode_label = toga.Label(
             'Barcode to check: ',
             style=Pack(padding=(0, 5))
@@ -31,11 +35,33 @@ class BarcodeBusiness(toga.App):
             style=Pack(padding=5)
         )
 
-        self.table_box = toga.Box(style=Pack(direction=COLUMN, flex=1))
+        input_box.add(barcode_box)
+        input_box.add(button)
 
-        main_box.add(barcode_box)
-        main_box.add(button)
-        main_box.add(self.table_box)
+        # Widgets for products_box
+        self.scanned_products_table = toga.Table(
+            headings=['Product name', 'Quantity']
+        )
+
+        headings = ['Nutrition category', 'Amount', 'Unit']
+        accessors = {headings[0]: 'category', headings[1]: 'amount', headings[2]: 'unit'}
+        products_nutrient_box = toga.Box(style=Pack(direction=COLUMN, flex=1))
+        self.products_nutrient_base = toga.Table(
+            headings=headings,
+            accessors=accessors
+        )
+        self.products_nutrient_total = toga.Table(
+            headings=headings,
+            accessors=accessors
+        )
+        products_nutrient_box.add(self.products_nutrient_base)
+        products_nutrient_box.add(self.products_nutrient_total)
+
+        products_box.add(self.scanned_products_table)
+        products_box.add(products_nutrient_box)
+
+        main_box.content.append('Input', input_box)
+        main_box.content.append('Product', products_box)
 
         self.main_window = toga.MainWindow(title=self.formal_name)
         self.main_window.content = main_box
@@ -71,32 +97,10 @@ class BarcodeBusiness(toga.App):
         barcode_data = await fetch_barcode_data(barcode)
         product = await parse_barcode_data(barcode_data)
 
-        table = await self.generate_nutrition_table(product)
+        data_base, data_total = product.nutrition_data()
 
-        self.table_box.add(table)
-
-
-
-
-    
-    async def generate_nutrition_table(self, product: Product) -> toga.Table:
-
-        headings = ['Nutrition', 'Value', 'Unit']
-        accessors = {
-            'Nutrition': 'category',
-            'Value': 'amount',
-            'Unit': 'unit'
-        }
-        data = product.nutrition_table()
-
-        table = toga.Table(
-            headings=headings,
-            accessors=accessors,
-            data=data
-        )
-
-        return table
-
+        self.products_nutrient_base.data = data_base
+        self.products_nutrient_total.data = data_total
 
 
 
